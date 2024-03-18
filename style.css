@@ -721,7 +721,18 @@ p.feedback {
     padding-top: 1rem ;
 }
 
+.break-none{
+    display: none;
+}
 
+.footer-section{
+    flex-direction: column;
+    padding-bottom:  0px;
+}
+
+.last {
+    margin-bottom: 0rem;
+}
 }
 @media screen and (max-width: 768px) {
   .cakes-haeding {
