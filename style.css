@@ -58,29 +58,7 @@
     background-color: #0ad1c8;
     
 }
-@media screen and (max-width:991px) {
-    .navbar-icons {
-    /* place-items: center; */
-    display: flex;
-    justify-content: center;
-    margin-top: 5px;
-}
-.nav-btn {
-    display: flex;
-    justify-content: center;
-    margin-top: 18px;
 
-
-    
-}
-
-.nav-link:hover::after{
-    transform: scaleX(0.2);
-    
-
-}
-
-}
 
 
 .c-img{
@@ -156,18 +134,6 @@
     margin-bottom: 25px;
 }
 
-
-@media screen and (max-width: 768px) {
-  .cakes-haeding {
-    font-size: 3rem; /* Adjust as needed for smaller screens */
-  }
-}
-
-@media screen and (max-width: 480px) {
-  .cakes-haeding{
-    font-size: 2.5rem; /* Adjust as needed for even smaller screens */
-  }
-}
 
 
 .test{
@@ -437,13 +403,6 @@ h3{
     justify-content: center;
 }
 
-@media screen and (max-width: 960px) {
-  .client-review{
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-}
 
 .client-img{
     border-radius: 50%;
@@ -589,13 +548,7 @@ td{
     margin-top: 64px;
 }
 
-@media screen and (max-width: 768px) {
-  .contact{
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-}
+
 .c-input{
     height: 57px;
     width: 296px;
@@ -705,13 +658,95 @@ td{
 }
 
 
+@media screen and (max-width:991px) {
+    .navbar-icons {
+    /* place-items: center; */
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+}
+.nav-btn {
+    display: flex;
+    justify-content: center;
+    margin-top: 18px;
+
+
+    
+}
+
+.nav-link:hover::after{
+    transform: scaleX(0.2);
+    
+
+}
+h1.c-heading {
+    font-size: 3.5rem;
+}
+.carousel-caption.d-md-block.align-left.top-0.mt-5 {
+    margin-top: -160px !important;
+}
+.nav-btn-margin{
+        margin-top: -24px !important;
+
+}
+.c-section {
+    margin-bottom: 14rem;
+}
+ .client-review{
+    flex-direction: column !important;
+    justify-content: center !important;
+    align-items: center !important;
+  }
+
+  .para {
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+}
+
+.color-bg-img2,.overlay-image2{
+    height: 1300px;
+}
+
+
+}
+@media screen and (max-width: 768px) {
+  .cakes-haeding {
+    font-size: 3rem; /* Adjust as needed for smaller screens */
+  }
+}
 
 
 
 
 
 
+@media screen and (max-width: 768px) {
+  .contact{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .c-section {
+    margin-bottom: 5rem;
+}
 
+
+
+}
+
+
+
+
+@media screen and (max-width: 480px) {
+  .cakes-haeding{
+    font-size: 2.5rem; /* Adjust as needed for even smaller screens */
+  }
+}
 
 
 
