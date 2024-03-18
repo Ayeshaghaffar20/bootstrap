@@ -706,10 +706,19 @@ h1.c-heading {
     align-items: center;
     text-align: center;
     width: 100%;
+    padding-right: 0px;
 }
 
 .color-bg-img2,.overlay-image2{
     height: 1300px;
+}
+
+p.feedback {
+    margin-top: 31px;
+}
+
+.center{
+    padding-top: 1rem ;
 }
 
 
