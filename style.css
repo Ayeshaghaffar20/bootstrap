@@ -63,8 +63,9 @@
 
 .c-img{
     filter: brightness(0.4);
-    /* object-fit: cover; */
-    /* height: 840px; */
+    object-fit: cover;
+    height: 840px;
+    width: 100%;
 }
 
 .c-heading{
